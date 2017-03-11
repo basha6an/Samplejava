@@ -1,0 +1,9 @@
+     1	=== Plugin Name ===
+     2	Contributors: (this should be a list of wordpress.org userid's)
+     3	Donate link: http://example.com/
+     4	Tags: comments, spam
+     5	Requires at least: 4.6
+     6	Tested up to: 4.7
+     7	Stable tag: 4.3
+     8	License: GPLv2 or later
+     9	License URI: https://www.gnu.org/licenses/gpl-2.0.html
