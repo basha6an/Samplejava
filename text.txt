@@ -1,1 +1,5 @@
-added Last Line
+3 Donate link: http://example.com/
+-     4 Tags: comments, spam
+-     5 Requires at least: 4.6
+-     6 Tested up to: 4.7
+     added Last Line
