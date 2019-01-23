@@ -1,8 +1,9 @@
 ---
--name: Create VM
-  win_hyperv_guest:
-   name: create hyper V
-   cpu: 2
-   memory: 1024MB
-   network_switch: NVS
-   state: present
+tasks:
+  - name: Create VM
+     win_hyperv_guest:
+      name: create hyper V
+      cpu: 2
+      memory: 1024MB
+      network_switch: NVS
+      state: present
