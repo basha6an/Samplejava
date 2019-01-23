@@ -4,5 +4,5 @@
    name: create hyper V
    cpu: 2
    memory: 1024MB
-   network_switch: WAN
+   network_switch: NVS
    state: present
