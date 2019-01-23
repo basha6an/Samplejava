@@ -1,10 +1,11 @@
 ---
- - name: VM creation
-   hosts: all
-   tasks:
-      win_hyperv_guest:
-            name: create hyper V
-            cpu: 2
-            memory: 1024MB
-            network_switch: NVS
-            state: present
+- name: manage VM
+  hosts: 
+   - all
+  tasks: 
+   - name: create VM
+     win_hyperv_guest: 
+       nane: VM
+       memory: 1024MB
+       network_switch: NAS
+       state: present
