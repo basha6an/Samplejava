@@ -1,5 +1,5 @@
 ---
- -name: VM creation
+ - name: VM creation
    tasks:
         win_hyperv_guest:
             name: create hyper V
