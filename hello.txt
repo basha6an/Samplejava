@@ -1,7 +1,8 @@
-i am basha
-from india
-where are you guys
-hello you are not intllegent
-#modified via browser 5th line
-Adding 6th lin:wq
-e
+---
+-name: Create VM
+  win_hyperv_guest:
+   name: create hyper V
+   cpu: 2
+   memory: 1024MB
+   network_switch: WAN
+   state: present
