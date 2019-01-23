@@ -5,7 +5,7 @@
   tasks: 
    - name: create VM
      win_hyperv_guest: 
-       nane: VM
+       name: VM
        memory: 1024MB
        network_switch: NAS
        state: present
