@@ -1,5 +1,5 @@
 ---
- - name: VM creation
+ -name: VM creation
    hosts: all
    tasks:
         win_hyperv_guest:
