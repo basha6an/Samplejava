@@ -1,6 +1,7 @@
 ---
  - name: VM creation
-   win_hyperv_guest:
+   tasks:
+      win_hyperv_guest:
             name: create hyper V
             cpu: 2
             memory: 1024MB
